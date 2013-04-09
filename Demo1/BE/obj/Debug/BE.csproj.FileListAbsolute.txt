@@ -10,3 +10,9 @@ C:\Repositorio\Demo1\BE\bin\Debug\BE.pdb
 C:\Repositorio\Demo1\BE\obj\Debug\ResolveAssemblyReference.cache
 C:\Repositorio\Demo1\BE\obj\Debug\BE.dll
 C:\Repositorio\Demo1\BE\obj\Debug\BE.pdb
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BE\bin\Debug\BE.dll.config
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BE\bin\Debug\BE.dll
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BE\bin\Debug\BE.pdb
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BE\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BE\obj\Debug\BE.dll
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BE\obj\Debug\BE.pdb

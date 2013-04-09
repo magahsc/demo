@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using BL;
 namespace Demo_1
 {
-    public partial class Usuario : System.Web.UI.Page
+    public partial class Lista_Usuario : System.Web.UI.Page
     {
         
 
@@ -21,11 +21,14 @@ namespace Demo_1
 
         protected void Boton_elimina_Click(object sender, EventArgs e)
         {
-           BE.DS_Demo1.UsuarioDataTable usuario=  GridView1.SelectedRow.DataItem();
+            /*GridViewRow usuario = GridView1.SelectedRow;
+            
+           BE.DS_Demo1.UsuarioRow usuario=  GridView1.SelectedRow.DataItem();
            BL_Usuario usu = new BL_Usuario();
            usu.eliminaUsuario(usuario.usuarioColumn.ToString(), usuario.passwordColumn.ToString(), usuario.nombreColumn.ToString(),
                             usuario.apellidosColumn.ToString(), usuario.direccionColumn.ToString(), DateTime.Parse( usuario.fecha_nacimientoColumn.ToString()),
                             int.Parse( usuario.codColumn.ToString()));
+             * */
         }
     }
 }

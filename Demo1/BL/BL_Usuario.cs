@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using DAO;
 using BE;
+
 namespace BL
 {
     public class BL_Usuario
@@ -26,7 +27,7 @@ namespace BL
             DAO_Usuario obj_DAO_Usuario = new DAO_Usuario();
 
             return obj_DAO_Usuario.listaUsuario();
-           
+                       
         }
         public Boolean eliminaUsuario(string usuario, string password, string nombre, string apellidos, string direccion, DateTime fecha_nac, int codigo)
         {

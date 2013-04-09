@@ -10,7 +10,7 @@
 namespace Demo_1 {
     
     
-    public partial class Usuario {
+    public partial class Lista_Usuario {
         
         /// <summary>
         /// divRegistro control.

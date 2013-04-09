@@ -14,3 +14,11 @@ C:\Repositorio\Demo1\DAO\bin\Debug\BE.pdb
 C:\Repositorio\Demo1\DAO\obj\Debug\ResolveAssemblyReference.cache
 C:\Repositorio\Demo1\DAO\obj\Debug\DAO.dll
 C:\Repositorio\Demo1\DAO\obj\Debug\DAO.pdb
+C:\Users\Renzo\Desktop\Repositorio\Demo1\DAO\bin\Debug\DAO.dll.config
+C:\Users\Renzo\Desktop\Repositorio\Demo1\DAO\bin\Debug\DAO.dll
+C:\Users\Renzo\Desktop\Repositorio\Demo1\DAO\bin\Debug\DAO.pdb
+C:\Users\Renzo\Desktop\Repositorio\Demo1\DAO\bin\Debug\BE.dll
+C:\Users\Renzo\Desktop\Repositorio\Demo1\DAO\bin\Debug\BE.pdb
+C:\Users\Renzo\Desktop\Repositorio\Demo1\DAO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Renzo\Desktop\Repositorio\Demo1\DAO\obj\Debug\DAO.dll
+C:\Users\Renzo\Desktop\Repositorio\Demo1\DAO\obj\Debug\DAO.pdb

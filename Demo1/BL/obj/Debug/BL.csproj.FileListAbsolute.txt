@@ -16,3 +16,12 @@ C:\Repositorio\Demo1\BL\bin\Debug\BE.pdb
 C:\Repositorio\Demo1\BL\obj\Debug\ResolveAssemblyReference.cache
 C:\Repositorio\Demo1\BL\obj\Debug\BL.dll
 C:\Repositorio\Demo1\BL\obj\Debug\BL.pdb
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BL\bin\Debug\BL.dll
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BL\bin\Debug\BL.pdb
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BL\bin\Debug\BE.dll
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BL\bin\Debug\DAO.dll
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BL\bin\Debug\BE.pdb
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BL\bin\Debug\DAO.pdb
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BL\obj\Debug\BL.dll
+C:\Users\Renzo\Desktop\Repositorio\Demo1\BL\obj\Debug\BL.pdb
