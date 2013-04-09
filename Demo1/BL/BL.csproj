@@ -44,6 +44,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BE\BE.csproj">
+      <Project>{83D91815-C249-41F7-B4FA-0B21432850CB}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DAO\DAO.csproj">
       <Project>{AD744762-C938-48E6-9D7E-AA30A892C8FB}</Project>
       <Name>DAO</Name>

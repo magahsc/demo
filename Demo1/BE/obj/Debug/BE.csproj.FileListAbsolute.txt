@@ -4,3 +4,9 @@ C:\Users\Renzo\Desktop\Demo 1\BE\bin\Debug\BE.pdb
 C:\Users\Renzo\Desktop\Demo 1\BE\obj\Debug\BE.dll
 C:\Users\Renzo\Desktop\Demo 1\BE\obj\Debug\BE.pdb
 C:\Users\Renzo\Desktop\Demo 1\BE\bin\Debug\BE.dll.config
+C:\Repositorio\Demo1\BE\bin\Debug\BE.dll.config
+C:\Repositorio\Demo1\BE\bin\Debug\BE.dll
+C:\Repositorio\Demo1\BE\bin\Debug\BE.pdb
+C:\Repositorio\Demo1\BE\obj\Debug\ResolveAssemblyReference.cache
+C:\Repositorio\Demo1\BE\obj\Debug\BE.dll
+C:\Repositorio\Demo1\BE\obj\Debug\BE.pdb
