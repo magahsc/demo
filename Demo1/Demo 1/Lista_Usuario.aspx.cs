@@ -30,5 +30,30 @@ namespace Demo_1
                             int.Parse( usuario.codColumn.ToString()));
              * */
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if (e.CommandName.Equals("cmdEditar"))
+            {
+                Session.Add("usuario", e.CommandArgument.ToString());
+                Session.Add("accion", "editar");
+                Response.Redirect("Usuario.aspx");
+               
+            }
+
+            if (e.CommandName.Equals("cmdEliminar"))
+            {
+
+                BL.BL_Usuario obj_BL_Usuario = new BL_Usuario();
+                obj_BL_Usuario.eliminaUsuario(e.CommandArgument.ToString());
+               // Response.Redirect("Lista_Usuario.aspx");
+
+            }
+        }
     }
 }
