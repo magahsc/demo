@@ -62,7 +62,7 @@ namespace Demo_1
         {
             try
             {
-                if (Session["accion"] == null)
+                if (Session["accion"] != null)
                 {
                     string accion = (string)Session["accion"];
                     if (accion.Equals("editar"))
@@ -70,10 +70,11 @@ namespace Demo_1
                         string usuarioAntiguo = (string)Session["usuario"];
 
                         BL.BL_Usuario obj_BL_Usuario = new BL_Usuario();
-                          DateTime fec = new DateTime(int.Parse(txtAnio.Text), int.Parse(ddlMes.SelectedItem.Value), int.Parse(ddlDia.SelectedItem.Text));
+                        DateTime fec = new DateTime(int.Parse(txtAnio.Text), int.Parse(ddlMes.SelectedItem.Value), int.Parse(ddlDia.SelectedItem.Text));
 
-
-                        obj_BL_Usuario.editar_Usuario(usuarioAntiguo,txtUsuario.Text, txtContrasenia.Text, txtNombre.Text, txtApellidos.Text, txtDireccion.Text, fec);
+                        obj_BL_Usuario.editar_Usuario(usuarioAntiguo, txtUsuario.Text, txtContrasenia.Text, txtNombre.Text, txtApellidos.Text, txtDireccion.Text, fec);
+                        Session.Clear();
+                      //obj_BL_Usuario.editar_Usuario(usuarioAntiguo,txtUsuario.Text, txtContrasenia.Text, txtNombre.Text, txtApellidos.Text, txtDireccion.Text, fec);
 
                     }
 
@@ -86,11 +87,12 @@ namespace Demo_1
                     DateTime fec = new DateTime(int.Parse(txtAnio.Text), int.Parse(ddlMes.SelectedItem.Value), int.Parse(ddlDia.SelectedItem.Text));
 
 
-                    Boolean resutlado = obj_BL_Usuario.insertarUsuario(txtUsuario.Text, txtContrasenia.Text, txtNombre.Text, txtApellidos.Text, txtDireccion.Text, fec);
+                    //Boolean resutlado = obj_BL_Usuario.insertarUsuario(txtUsuario.Text, txtContrasenia.Text, txtNombre.Text, txtApellidos.Text, txtDireccion.Text, fec);
+                    Boolean resutlado = obj_BL_Usuario.insertarUsuarioEF(txtUsuario.Text, txtContrasenia.Text, txtNombre.Text, txtApellidos.Text, txtDireccion.Text, fec);
 
                     if (resutlado)
-                    {
-                        divResgitroExitoso.Visible = true;
+                  {
+                      divResgitroExitoso.Visible = true;
                         divRegistro.Visible = false;
 
                         txtAnio.Text = string.Empty;

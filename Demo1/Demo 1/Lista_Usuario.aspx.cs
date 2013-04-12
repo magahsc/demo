@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using BL;
+using System.Data.Entity;
 namespace Demo_1
 {
     public partial class Lista_Usuario : System.Web.UI.Page
@@ -14,7 +15,9 @@ namespace Demo_1
         protected void Page_Load(object sender, EventArgs e)
         {
             BL_Usuario usu = new BL_Usuario();
-            GridView1.DataSource = usu.listaUsuarios();
+            List<BE.Usuario> lis = new List<BE.Usuario>();
+            lis = usu.listaUsuariosEF();
+            GridView1.DataSource = lis;
             GridView1.DataBind();
 
         }
